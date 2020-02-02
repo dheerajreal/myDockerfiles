@@ -17,5 +17,6 @@ RUN touch Procfile
 #copy files
 ADD . /app
 
-#login using heroku login
+# login using "heroku login"
+#run using "docker run -it heroku"
 CMD ["bash" ]
